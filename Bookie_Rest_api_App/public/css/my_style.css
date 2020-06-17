@@ -1,0 +1,92 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.content-head{
+    padding: 20px;
+    background-color: #aaa;
+    text-align: center;
+}
+
+.content-body{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #bbb;
+    text-align: center;
+    display: none;
+}
+
+h1{
+    font-size: 3.0em;
+    text-align: center;
+}
+
+button, input[type="submit"]{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(50, 80, 230, 0.5);
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+
+label{
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+#book-table{
+    margin: 30px;
+    width: 80%;
+    align-self: center;
+}
+
+.table-title{
+    font-size: 2.0em;
+    font-weight: 600;
+}
+
+td{
+    font-size: 1.1em;   
+}
+
+th{
+    font-size: 1.5em;   
+}
+
+.title, .author, .update-btn, .delete-btn, input[type='text']{
+    padding: 10px 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    
+}
+
+button, input[type='submit']{
+    background-color: #222;
+    color: whitesmoke;
+    padding: 10px, 20px;
+}
+
+button:hover, input[type='submit']:hover{
+    background-color: whitesmoke;
+    color: #222;
+}
+
+#author{
+    font-size: 1.4em;
+    width: 15%;
+}
+
+#title{
+    font-size: 1.4em;
+    width: 30%;
+}
+
+.author{
+    width: 250px;
+}
+
+.title{
+    width: 450px;
+}
+
+

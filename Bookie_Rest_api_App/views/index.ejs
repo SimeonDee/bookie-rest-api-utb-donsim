@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title> JQuery Ajax Express CRUD Restful API</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="/css/my_style.css" />
+    </head>
+    <body>
+        <h1> Making Ajax Request with JQuery for CRUD, and Express for Restful API </h1>
+        <div class="content-head">
+            <button id='get-books'> GET ALL BOOKS - JQ </button> 
+            <button id='get-books-js'> GET ALL BOOKS - JS </button> <br />
+                
+            <form id="input-form">
+                <label for="author"> Author: </label> <input id="author" type="text" required>
+                <label for="title"> Title: </label> <input id="title" type="text" required>
+                <input id="post-book" type="submit" value="POST/SAVE BOOK" />
+            </form>
+        </div>
+        
+        <div class="content-body">
+                    
+            <table id="book-table" border="1" cellspacing="0" cellpadding="10" align='center'>
+                <thead>
+                    <caption>
+                        <span class='table-title'><strong> List of All Available Books </strong> </span> 
+                    </caption>
+                    <tr>
+                        <th>ID</th>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id='table-body'>
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="/js/ajax_jq.js"></script>
+    </body>
+</html>

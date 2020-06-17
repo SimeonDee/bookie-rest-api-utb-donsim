@@ -1,0 +1,29 @@
+{
+  "name": "ajax_jquery_crud_rest_tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial on how to make ajax request with jQuery, perform CRUD operation through REST api wit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Ajax",
+    "Request",
+    "REST",
+    "api",
+    "jQuery",
+    "Express",
+    "Nodejs",
+    "CRUD",
+    "mysql"
+  ],
+  "author": "Adeyemi Adedoyin Simeon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
